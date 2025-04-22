@@ -11,6 +11,8 @@ public class Film {
     private String title;
     private int year;
     private Date expireDate;
+    // todo: should this be a list/set?
+    private StreamingService streamingService;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -48,6 +50,15 @@ public class Film {
 
     public void setExpireDate(Date expireDate) {
         this.expireDate = expireDate;
+    }
+
+    @Column(name = "STREAMING_SERVICE")
+    public StreamingService getStreamingService() {
+        return streamingService;
+    }
+
+    public void setStreamingService(StreamingService streamingService) {
+        this.streamingService = streamingService;
     }
 
     @Override
