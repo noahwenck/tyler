@@ -1,4 +1,4 @@
-package com.Controller;
+package com.controller;
 
 import com.entity.StreamingService;
 import com.service.ShimizuService;

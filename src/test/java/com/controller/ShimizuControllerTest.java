@@ -1,6 +1,5 @@
 package com.controller;
 
-import com.Controller.ShimizuController;
 import com.entity.StreamingService;
 import com.service.ShimizuService;
 import org.junit.jupiter.api.Test;
@@ -14,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;
 
 /**
- * Test class for {@link com.Controller.ShimizuController}
+ * Test class for {@link com.controller.ShimizuController}
  */
 @ExtendWith(MockitoExtension.class)
 class ShimizuControllerTest {
